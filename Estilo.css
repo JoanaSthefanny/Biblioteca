@@ -52,18 +52,19 @@ h1, h2, h3{
  padding: 10px;
 }
 
+#conteudo{
+  margin-left: 40px;
+  margin-right: 40px;
+  display: flex;
+  background-color: #8A89C0 ;
+}
 
-
-
-
-
-main{
+#header-main{
   margin-left: 40px;
   margin-right: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #8A89C0 ;
 }
 
 /*Menu*/
@@ -86,8 +87,77 @@ background-color: #ffffff;
     padding:10px 20px; 
     display:block;
   }
+
 .Lista li a:hover{
 background:#fae9a0;
 color:#2f00ff;
 }
 
+#conteudo-primario{
+  background: #e8e5f4;
+  float: left;
+  width: 60vw;
+  height: 500px;
+  padding: 20px;
+  margin: 15px;
+}
+#conteudo-lateral{
+  background: #e8e5f4;
+  float: left;
+  width: 17vw;
+  height: 500px;
+  padding: 20px;
+  margin: 15px;
+  align-items: center;
+  text-align: center;
+}
+
+
+#section-livro_one{
+  width: 100%;
+  height: auto;
+  display : flex;
+  flex-direction : row;
+  text-align: justify;
+  line-height: 1.5;
+  background:  #ddd7f1;
+  
+}
+
+#section-livro_one #imagem{
+  padding: 20px;
+  width: 30%;
+  float: left;
+}
+
+#section-livro_one #texto{
+  width: 70%;
+  padding: 20px;
+  float: left;
+}
+
+#section-livro_two{
+  align-items: center;
+  text-align: center;
+}
+
+button{
+  width: 100px;
+  height: 50px;
+  border-radius: 30px;
+  background: #8e82d4;
+  text-align: center;
+  margin: 15px;
+}
+#botoes{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 15px;
+  
+}
+#social > button{
+  width: 150px;
+  margin: 10px;
+  text-align: center;
+}
