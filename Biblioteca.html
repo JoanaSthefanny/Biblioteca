@@ -10,7 +10,7 @@
     </head>
     <body>
         <header>
-            <div class="conteiner">
+            <div class="header">
                 <img src="BibliotecaLogo.gif" width="10%" height="10%">
 
 
@@ -35,7 +35,7 @@
             </nav>
         </div>
     </header>
-    <div id="conteudo">
+    <div id="container">
         <main>
             <div id="header-main">
                 <nav>
@@ -53,14 +53,19 @@
             </div>
                 
             
-            <div id="conteudo-primario">
-
-                <div id="section-livro">                               
-                    <div id="section-livro_one">
-                        <div id="imagem" >
-                            <img src="Capas-Livros/HarryPotter_e_a_Criança_Amaldiçoada.jpg" width="250px" height="auto" >
-                        </div>
-                        <div id="texto">
+            <div id="conteudo-parte1">
+                <article class="section" id="section-livro">
+                    <div id="Titulo">
+                        <h1>Livro</h1>
+                    </div>                               
+                    <div id="section-info-livro">
+                        <article class="imagem">
+                            <div id="livro">
+                                <a href="#"><img src="Capas-Livros/HarryPotter_e_a_Criança_Amaldiçoada.jpg"></a>
+                            </div>
+                            
+                        </article>
+                        <article id="texto">
                             <h1>Harry Potter e a Criança Amaldiçoada</h1>
                             <p>
                                 <p><b>Descrição: </b>Com fotografias deslumbrantes, entrevistas perspicazes, e rascunhos, notas e fotos de bastidores 
@@ -72,36 +77,126 @@
                                 <p><b>Autor: </b>J.K. Rowling</p>
                                 <p><b>Gênero: </b>Aventura</p>
                             </p>
-                        </div>
-                    </div>
-                    
-                    <div id="section-livro_two">
-                        <div id="botoes">
+                        </article>
+                    </div>            
+                    <div id="botoes">
                             <button>Comprar</button>
                             <button>Adicionar no carrinho</button>
+                    </div>    
+                    <div id="sugeridos">
+                        <div id="Titulo">
+                            <h1>Sugeridos</h1>
+                        </div>             
+                        <div id="section-imagens-filmes-sugeridos">
+                            <div class="imagem" id="filme">
+                                <a href="#">
+                                    <figure>
+                                        <img src="Capas-Livros/HarryPotter_e_a_camara_secreta.jpg">
+                                        <figcaption>Harry Potter e a Câmera Secreta</figcaption>
+                                    </figure>  
+                                </a>                   
+                            </div>
+                            <div class="imagem" id="filme">
+                                <a href="#">
+                                    <figure>                             
+                                        <img src="Capas-Livros/HarryPotter_e_as_Reliquias_da_morte.jpg">
+                                        <figcaption>Harry Potter e as Reliquias da morte</figcaption>
+                                    </figure>
+                                </a>          
+                            </div>
+                            <div class="imagem" id="filme">
+                                <a href="#">
+                                    <figure>
+                                        <img src="Capas-Livros/HarryPotter_e_o_Enigma_do_Principe.jpg" >
+                                        <figcaption>Harry Potter e o Enigma do Principe</figcaption>
+                                    </figure>    
+                                </a>              
+                            </div>
                         </div>
-                    </div>                                                                 
-                </div>
-            </div>
-
-            <div id="conteudo-lateral">
-                <aside>
-                    <div id="social">
-                        <button>Nos conheça!</button>
-                        <iframe width="200" height="auto" src="https://www.youtube.com/embed/K2ynWCmM99E" 
-                            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
-                            clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                            allowfullscreen>
-                        </iframe>
+                        <div id="section-revew-livro">
+                           
+                            <div id="section-revew-usuario">
+                                <div id="section-usuario-username">
+                                    <img src="Avatares-Biblioteca/Avatar1.png " width="60px" height="auto" style="border-radius: 50%;">
+                                    <p><b>Fernanda Sousa</b></p>
+                                </div>                   
+                                <p>Eu simplesmente amo Harry Potter e um dos meu favoritos é pedra filosofal. 
+                                    Eles crianças é lindo, e a magia do filme é incrível, é tão fofo  o jeito 
+                                    que ele descobre ser bruxo, você realmente se sente em Hogwarts. Esse filme 
+                                    é mais do que incrível é Magico.
+                                </p>
+                            </div>
+                          
+                            <div id="botoes">
+                                <button>Ver mais</button>
+                            </div>
+                        </div>
                     </div>
-                </aside>
-            <div>
+                                                                            
+                </article>
+                    
                 
-          
+                <article class="section" id="conteudo-lateral">
+                    
+                    <div id="social">
+                        <div id="border-radius">
+                            <p>Nos conheça!</p>
+                        </div>
+                        <div class="midia" id="video">
+                            <iframe width="200" height="auto" src="https://www.youtube.com/embed/K2ynWCmM99E" 
+                                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+                                clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+                    <div id="favoritos">
+                        <div id="border-radius">
+                            <p>Favoritados</p>
+                        </div>                                         
+                        <div id="section-imagens-livros-favoritos">
+                            <div id="livro-favorito">
+                                <a href="#"><img src="Capas-Livros/O_assassinato_no_expresso_oriente.jpg"></a>
+                            </div>
+                            <div id="livro-favorito">
+                                <a href="#"><img src="Capas-Livros/SherlockHomes.jpg"></a>
+                            </div>
+                            <div id="livro-favorito">
+                                <a href="#"><img src="Capas-Livros/crepusculo.jpg"></a>
+                            </div>
+                        </div>          
+                                                 
+                    </div>
+                    
+                </article>
+            </div>
+            <div id="conteudo-parte2">
+                <article class="section" id="principal">
+                    <div id="Titulo">
+                        <h1>Gêneros</h1>
+                    </div>
+                    <div id="generos-filmes">
 
-
-
-                </main>
+                        <div id="genero-filme">
+                            <a href="#"><img src="Capas-Livros/generos/genero-comedia.jpg"></a>
+                        </div>
+                        <div id="genero-filme">
+                            <a href="#"><img src="Capas-Livros/generos/genero-fantasia.jpg"></a>
+                        </div>
+                        <div id="genero-filme">
+                            <a href="#"><img src="Capas-Livros/generos/genero-aventura.jpg"></a>
+                        </div>
+                    </div>
+                    <div id="botoes">
+                        <button>Ver mais</button>
+                    </div> 
+                </article>
+            </div>
+                
+             
+        
+                
+        </main>
     </div>
     
     </body>

@@ -8,7 +8,7 @@ body{
   padding: 0;
 }
 
-.conteiner{
+.header{
 
  display: flex;
  justify-content: space-between;
@@ -31,7 +31,7 @@ body{
 
 img{
   display: block;
-  max-width: 80%;
+  max-width: 100%;
 }
 
 a{
@@ -41,7 +41,6 @@ a{
 
 h1, h2, h3{
   margin: 0;
-  margin-bottom: 20px;
   text-align: center;
 }
 
@@ -52,11 +51,11 @@ h1, h2, h3{
  padding: 10px;
 }
 
-#conteudo{
+#container{
   margin-left: 40px;
   margin-right: 40px;
   display: flex;
-  background-color: #8A89C0 ;
+  background: #e8e5f4;
 }
 
 #header-main{
@@ -93,71 +92,190 @@ background:#fae9a0;
 color:#2f00ff;
 }
 
-#conteudo-primario{
-  background: #e8e5f4;
-  float: left;
-  width: 60vw;
-  height: 500px;
+#conteudo-parte1{
+  display: flex;
+  flex-wrap: wrap;
+  background: #d7d5e0;
+  align-items: center;
   padding: 20px;
-  margin: 15px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
 }
-#conteudo-lateral{
-  background: #e8e5f4;
-  float: left;
-  width: 17vw;
-  height: 500px;
+
+#conteudo-parte1 > #section-livro{
+  flex: 3;
+}
+
+#section-info-livro{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+#section-info-livro > #imagem{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#section-info-livro > #texto{
+  flex: 2;
+  padding: 10px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+#section-revew-usuario{
+  display: flex;
+  flex-direction: column;
+  background: #8A89C0;
+  border-radius: 30px;
   padding: 20px;
-  margin: 15px;
+}
+#section-usuario-username{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+#conteudo-parte1 > #conteudo-lateral{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+#favoritos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+}
+
+#section-imagens-livros-favoritos{
+  background: #8A89C0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 30px;
+  padding: 40px;
+}
+
+#livro-favorito{
+  padding: 5px;
+  margin: 5px;
+  width: 120px;
+  height: auto;
+  display: flex;
+  justify-content: center;
   align-items: center;
   text-align: center;
 }
 
-
-#section-livro_one{
+#Titulo{
   width: 100%;
-  height: auto;
-  display : flex;
-  flex-direction : row;
-  text-align: justify;
-  line-height: 1.5;
-  background:  #ddd7f1;
-  
-}
-
-#section-livro_one #imagem{
-  padding: 20px;
-  width: 30%;
-  float: left;
-}
-
-#section-livro_one #texto{
-  width: 70%;
-  padding: 20px;
-  float: left;
-}
-
-#section-livro_two{
+  height: 50px;
+  background: #480072;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
   align-items: center;
   text-align: center;
 }
 
 button{
-  width: 100px;
+  width: auto;
   height: 50px;
   border-radius: 30px;
   background: #8e82d4;
   text-align: center;
   margin: 15px;
-}
-#botoes{
+  padding: 20px;
   align-items: center;
+  display: flex;
+}
+
+#botoes{
   justify-content: center;
   display: flex;
-  padding: 15px;
-  
 }
-#social > button{
-  width: 150px;
-  margin: 10px;
+
+#border-radius{
+  background: #8A89C0;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 15px;
+  margin: 20px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
+}
+
+.imagem #livro{
+  width: 200px;
+  height: auto;
+  margin: 5px;
+  padding: 10px;
+}
+
+.imagem{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+figure{
+  margin: 15px;
+  width: 200px;
+  height: auto;
+}
+
+
+
+#conteudo-parte2{
+  display: flex;
+  flex-wrap: wrap;
+  background: #d7d5e0;
+  align-items: center;
+  padding: 20px;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#generos-filmes{
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#section-imagens-filmes-sugeridos{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#generos-filmes{
+
+}
+#genero-filme{
+  width: 300px;
+  height: auto;
+  margin: 20px;
 }
