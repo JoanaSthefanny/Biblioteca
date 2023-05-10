@@ -53,17 +53,20 @@
             </div>
                 
             
-            <div id="conteudo-parte1">
-                <article class="section" id="section-livro">
+            <div class="conteudo-parte1">
+
+                <!--Seção do livro -->
+                <article class="section-livro">
+
                     <div id="Titulo">
                         <h1>Livro</h1>
-                    </div>                               
+                    </div>         
+
                     <div id="section-info-livro">
                         <article class="imagem">
                             <div id="livro">
                                 <a href="#"><img src="Capas-Livros/HarryPotter_e_a_Criança_Amaldiçoada.jpg"></a>
-                            </div>
-                            
+                            </div>                
                         </article>
                         <article id="texto">
                             <h1>Harry Potter e a Criança Amaldiçoada</h1>
@@ -78,66 +81,123 @@
                                 <p><b>Gênero: </b>Aventura</p>
                             </p>
                         </article>
-                    </div>            
+                    </div> 
+
                     <div id="botoes">
-                            <button>Comprar</button>
-                            <button>Adicionar no carrinho</button>
+                            <button><p id="texto-botao">Comprar</p></button>
+                            <button><p id="texto-botao">Adicionar no carrinho</p></button>
                     </div>    
-                    <div id="sugeridos">
+
+
+                    <!--Avaliações-->
+                    <div id="Titulo">
+                        <h1>Avaliações</h1>
+                    </div>
+                    <div id="section-avaliações">
+                        <div id="section-revews">
+
+                            <div id="section-revew-usuario">
+                                <div id="section-usuario-username">
+                                    <img id="avatar" src="Avatares-Biblioteca/Avatar2.png " width="60px" height="auto" style="border-radius: 50%; padding: 10px;">
+                                    <p id="nome-avatar"><b>Mário Quintana</b></p>                            
+                                </div>   
+                                <div id="avaliacao_usuario">
+                                    <p id="texto">Livro incrível e emocionante, a animação e a representatividade incrivel. Realmente se superaram nessa vez, cada minimo detalhe é possivel ver a cultura colombiana, e você sente uma semelhança com o Brasil, por ser da latino america, o café, arroz e feijão, a dança com vestido rodado, simplesmente lindo.
+                                    </p>
+                                    <div id="avaliação_estrelas">
+                                        <div id="imagem-estrela">
+                                            <img id="imagem-avaliacao-estrelas"src="Avaliação_estrelas/avaliação_estrelas.png">
+                                        </div>
+                                    </div>
+                                </div>   
+                            </div> 
+
+                            <div id="section-revew-usuario">
+                                <div id="section-usuario-username">
+                                    <img id="avatar" src="Avatares-Biblioteca/Avatar3.png " width="60px" height="auto" style="border-radius: 50%; padding: 10px;">
+                                    <p id="nome-avatar"><b>Heitor Carvalho</b></p>                            
+                                </div>   
+                                <div id="avaliacao_usuario">
+                                    <p id="texto">PERFEITO! sem defeito algum. só tem que prestar muita atenção pra entender. todos os livros da saga são mais que perfeitos, e todos trazem uma mensagem, na qual você tem que interpretar. eu amooo, posso ler a minha inteira.
+                                    </p>
+                                    <div id="avaliação_estrelas">
+                                        <div id="imagem-estrela">
+                                            <img id="imagem-avaliacao-estrelas" src="Avaliação_estrelas/avaliação_estrelas.png" width="90px">
+                                        </div>
+                                    </div>
+                                </div>                                                
+                            </div>
+
+                            <div id="section-revew-usuario">                  
+                                <div id="section-usuario-username">
+                                    <img id="avatar" src="Avatares-Biblioteca/Avatar4.png " width="60px" height="auto" style="border-radius: 50%; padding: 10px;">
+                                    <p id="nome-avatar"><b>Larissa Manoela</b></p>                            
+                                </div>   
+                                <div id="avaliacao_usuario">
+                                    <p id="texto">Esse livro é incrível! Desde a primeira vez que li amei demais, a história é algo bem intrigante e a cada vez que você assisti, você fica com vontade de ver tudo. Nada a reclamar desse filme, ele simplesmente é perfeito, recomendo a todos. Amo demaaais Harry Potter aaaa :)
+                                    </p>
+                                    <div id="avaliação_estrelas">
+                                        <div id="imagem-estrela">
+                                            <img id="imagem-avaliacao-estrelas" src="Avaliação_estrelas/avaliação_estrelas.png" width="90px">
+                                        </div>
+                                    </div>
+                                </div>                
+                                
+                            </div>                                                        
+                        </div>
+                        <div id="botoes">
+                            <button><p id="texto-botao">Ver mais</p></button>
+                        </div>
+                    </div>
+                   
+                    <!-- Seção de livros Sugeridos-->
+                    <div id="section-sugeridos">
+
                         <div id="Titulo">
                             <h1>Sugeridos</h1>
-                        </div>             
-                        <div id="section-imagens-filmes-sugeridos">
-                            <div class="imagem" id="filme">
+                        </div>  
+                
+                        <div id="section-imagens-livros-sugeridos">
+                            <div class="imagem" id="livro">
                                 <a href="#">
                                     <figure>
                                         <img src="Capas-Livros/HarryPotter_e_a_camara_secreta.jpg">
-                                        <figcaption>Harry Potter e a Câmera Secreta</figcaption>
+                                        <figcaption><p id="texto">Harry Potter e a Câmera Secreta</p></figcaption>
                                     </figure>  
                                 </a>                   
                             </div>
-                            <div class="imagem" id="filme">
+                            <div class="imagem" id="livro">
                                 <a href="#">
                                     <figure>                             
                                         <img src="Capas-Livros/HarryPotter_e_as_Reliquias_da_morte.jpg">
-                                        <figcaption>Harry Potter e as Reliquias da morte</figcaption>
+                                        <figcaption><p id="texto">Harry Potter e as Reliquias da morte</p></figcaption>
                                     </figure>
                                 </a>          
                             </div>
-                            <div class="imagem" id="filme">
+                            <div class="imagem" id="livro">
                                 <a href="#">
                                     <figure>
                                         <img src="Capas-Livros/HarryPotter_e_o_Enigma_do_Principe.jpg" >
-                                        <figcaption>Harry Potter e o Enigma do Principe</figcaption>
+                                        <figcaption><p id="texto">Harry Potter e o Enigma do Principe</p></figcaption>
                                     </figure>    
                                 </a>              
                             </div>
                         </div>
-                        <div id="section-revew-livro">
-                           
-                            <div id="section-revew-usuario">
-                                <div id="section-usuario-username">
-                                    <img src="Avatares-Biblioteca/Avatar1.png " width="60px" height="auto" style="border-radius: 50%; padding: 10px;">
-                                    <p><b>Fernanda Sousa</b></p>
-                                </div>                   
-                                <p>Eu simplesmente amo Harry Potter, e um dos meu favoritos é pedra filosofal. Ver a infância dos personagens é lindo, e a magia do livro é incrível, é tão fofo  o jeito que ele descobre ser bruxo, você realmente se sente em Hogwarts. Esse livro é mais do que incrível, é Magico.
-                                </p>
-                            </div>
-                          
-                            <div id="botoes">
-                                <button>Ver mais</button>
-                            </div>
+                        <div id="botoes">
+                            <button><p id="texto-botao">Ver mais</p></button>
                         </div>
+
                     </div>
                                                                             
                 </article>
                     
-                
-                <article class="section" id="conteudo-lateral">
+                <!--Barra lateral-->
+                <article class ="barra-lateral">
                     
+                    <!--Social-->
                     <div id="social">
                         <div id="border-radius">
-                            <p>Nos conheça!</p>
+                            <p id="texto-botao">Nos conheça!</p>
                         </div>
                         <div class="midia" id="video">
                             <iframe width="200" height="auto" src="https://www.youtube.com/embed/K2ynWCmM99E" 
@@ -147,9 +207,11 @@
                             </iframe>
                         </div>
                     </div>
-                    <div id="favoritos">
+
+                    <!--favoritos-->
+                    <div class="section-favoritos">
                         <div id="border-radius">
-                            <p>Favoritados</p>
+                            <p id="texto-botao">Favoritados</p>
                         </div>                                         
                         <div id="section-imagens-livros-favoritos">
                             <div id="livro-favorito">
@@ -161,6 +223,18 @@
                             <div id="livro-favorito">
                                 <a href="#"><img src="Capas-Livros/crepusculo.jpg"></a>
                             </div>
+                            <div id="livro-favorito">
+                                <a href="#"> <img src="Capas-Livros/As_cronicas_de_narnia.jpg"></a>
+                            </div>
+                            <div id="livro-favorito">
+                                <a href="#"> <img src="Capas-Livros/A_ponte_entre_reinos.jpg"></a>
+                            </div>
+                            <div id="livro-favorito">
+                                <a href="#"> <img src="Capas-Livros/O_pai_rico.jpg"></a>
+                            </div>
+                            <div id="botoes">
+                                <button><p id="texto-botao">Ver mais</p></button>
+                            </div>
                         </div>          
                                                  
                     </div>
@@ -169,26 +243,153 @@
             </div>
             <div id="conteudo-parte2">
                 <article class="section" id="principal">
+
+                    <!--Gêneros-->
                     <div id="Titulo">
                         <h1>Gêneros</h1>
                     </div>
-                    <div id="generos-filmes">
-
-                        <div id="genero-filme">
+                    
+                    
+                    <div id="generos-livros">
+                        <div id="genero-livro">
                             <a href="#"><img src="Capas-Livros/generos/genero-comedia.jpg"></a>
                         </div>
-                        <div id="genero-filme">
+                        <div id="genero-livro">
                             <a href="#"><img src="Capas-Livros/generos/genero-fantasia.jpg"></a>
                         </div>
-                        <div id="genero-filme">
+                        <div id="genero-livro">
                             <a href="#"><img src="Capas-Livros/generos/genero-aventura.jpg"></a>
                         </div>
                     </div>
                     <div id="botoes">
-                        <button>Ver mais</button>
+                        <button><p id="texto-botao">Ver mais</p></button>
                     </div> 
+                    
+                    <!--Cadastro-->
+                    <div id="Titulo">
+                        <h1>Cadastro</h1>
+                    </div>
+
+
+                    
+                    <!--Div lado a lado
+                        Livros mais comprados | Lançamentos-->
+                    <div class="colunas">
+                        <div id="conteudo-right">
+
+                            <!--Livros mais comprados-->
+                            <div id="Titulo">
+                                <h1>Livros mais comprados</h1>
+                            </div>
+                            <div id="section-info-livro">
+                                <article class="imagem">
+                                    <div id="livro-mais-vendido">
+                                        <a href="#"><img src="Capas-Livros/A_revolução_dos_bichos.jpg"></a>
+                                    </div>
+                                    
+                                </article>
+                                <article id="texto">
+                                    <h1>A revolução dos bichos</h1>
+                                        <p>
+                                            <b>Descrição:</b>A revolução dos bichos é uma fábula sobre o poder. Narra a insurreição dos animais de uma granja contra seus donos. Progressivamente, porém, a revolução degenera numa tirania ainda mais opressiva que a dos humanos.
+                                        </p>                                  
+                                </article>
+                            </div>   
+                            <div id="section-info-livro">
+                                <article class="imagem">
+                                    <div id="livro-mais-vendido">
+                                        <a href="#"><img src="Capas-Livros/Do_mil_ao_milhao.jpg"></a>
+                                    </div>
+                                    
+                                </article>
+                                <article id="texto">
+                                    <h1>Do mil ao milhão</h1>
+                                        <p>
+                                            <b>Descrição:</b>m seu primeiro livro, Thiago Nigro, criador da plataforma O Primo Rico, ensina aos leitores os três pilares para atingir a independência financeira: gastar bem, investir melhor e ganhar mais.
+                                        </p>                                  
+                                </article>
+                            </div> 
+                            <div id="section-info-livro">
+                                <article class="imagem">
+                                    <div id="livro-mais-vendido">
+                                        <a href="#"><img src="Capas-Livros/Alice_no_pais_das_Maravilhas.jpg"></a>
+                                    </div>
+                                    
+                                </article>
+                                <article id="texto">
+                                    <h1>Alice no País das Maravilhas</h1>
+                                        <p>
+                                            <b>Descrição:</b>Uma menina, um coelho e uma história capazes de fazer qualquer um de nós voltar a sonhar. Alice é despertada de um leve sono ao pé de uma árvore por um coelho peculiar. Uma criatura alva e falante com roupas engraçadas, que consulta seu relógio e reclama do próprio atraso
+                                        </p>                                  
+                                </article>
+                            </div> 
+                            <div id="botoes">
+                                <button> <p id="texto-botao">Ver mais</p></button>
+                            </div>
+                        </div>
+
+                        <div id="conteudo-left">
+
+
+                            <!--Lançamentos-->
+                            <div id="Titulo">
+                                <h1>Lançamentos</h1>
+                            </div>
+                            <div id="section-info-livro">
+                                <article class="imagem">
+                                    <div id="livro-lancamento">
+                                        <a href="#"><img src="Capas-Livros/Maniaco_de_Nova_York.jpg"></a>
+                                    </div>
+                                    
+                                </article>
+                                <article id="texto">
+                                    <h1>Maníaco de Nova York</h1>
+                                        <p>
+                                            <b>Descrição:</b>Há seis anos, um assassino mascarado começou a agir pelas ruas de Nova York. Um maníaco desumano, invencível e imparável. Por isso que a solução das autoridades foi simplesmente ignorá-lo e deixar os   nova-iorquinos se adaptarem a um mundo onde a morte pode atacar a qualquer momento. 
+                                        </p>                                  
+                                </article>
+                            </div>   
+                            <div id="section-info-livro">
+                                <article class="imagem">
+                                    <div id="livro-lancamento">
+                                        <a href="#"><img src="Capas-Livros/O_amor_é_uma_escolha.jpg"></a>
+                                    </div>
+                                    
+                                </article>
+                                <article id="texto">
+                                    <h1>O amor é uma escolha</h1>
+                                        <p>
+                                            <b>Descrição:</b>O Amor é ou não uma escolha? É possível escolher amar de alguma forma?
+                                            Até que ponto é possível conviver com quem não nos ama? Desde muito pequena, Babete via espíritos, mas esse dom não era aceito por sua mãe Iraci.
+                                        </p>                                  
+                                </article>
+                            </div> 
+                            <div id="section-info-livro">
+                                <article class="imagem">
+                                    <div id="livro-lancamento">
+                                        <a href="#"><img src="Capas-Livros/Onze_portas_para_a_escuridão.jpg"></a>
+                                    </div>
+                                    
+                                </article>
+                                <article id="texto">
+                                    <h1>Onze portas para a escuridão</h1>
+                                        <p>
+                                            <b>Descrição:</b>Primeiro livro de contos de autora de O Homem de Giz traz narrativas assustadoras que prometem conquistar fãs de Black Mirror e Stranger Things. Fendas no espaço-tempo, apocalipses e crianças macabras. Nas tramas de Onze portas para a escuridão, nada é o que parece, e vida, morte, culpa e fantasia se misturam de forma aterrorizante.
+                                        </p>                                  
+                                </article>
+                            </div> 
+                            <div id="botoes">
+                                <button><p id="texto-botao">Ver mais</p></button>
+                            </div>
+                        </div>
+                    </div>
+                
                 </article>
-            </div>        
+            </div>    
+
+            <div id="Titulo">
+                <h1> </h1>
+            </div>    
             <div class="Propagandas">
                 <div class="Coluna1">
 
