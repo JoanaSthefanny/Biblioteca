@@ -40,13 +40,13 @@
             <div id="header-main">
                 <nav>
                     <ul class="Lista">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Sobre</a></li>
-                        <li><a href="#">Gêneros</a></li>
-                        <li><a href="#">Avaliações</a></li>
-                        <li><a href="#">Livros mais vendidos e lançamentos</a></li>
-                        <li><a href="#">Links</a></li>
-                        <li><a href="#">Contato</a></li>
+                        <li><a href="#"><p id="texto-header-main">Home</p></a></li>
+                        <li><a href="#"><p id="texto-header-main">Sobre</p></a></li>
+                        <li><a href="#"><p id="texto-header-main">Gêneros</p></a></li>
+                        <li><a href="#"><p id="texto-header-main">Avaliações</p></a></li>
+                        <li><a href="#"><p id="texto-header-main">Livros mais vendidos e lançamentos</p></a></li>
+                        <li><a href="#"><p id="texto-header-main">Links</p></a></li>
+                        <li><a href="#"><p id="texto-header-main">Contato</p></a></li>
                     </ul>
                 </nav>
                 <img src="Libofly.gif" width="100%"> 
@@ -268,6 +268,55 @@
                     <!--Cadastro-->
                     <div id="Titulo">
                         <h1>Cadastro</h1>
+                    </div>
+                    
+                    <!--Formulário-->
+                    <div class="section-formulario">
+                        
+                        <form class="formulario" method="POST">
+                            
+                            <fieldset>
+                                <h1>Formulário de inscrição</h1>
+                                <div class="nome_sobrenome">
+                                    <div id="section-campo-dados">
+                                        <label for="nome">Nome:</label>
+                                        <input type="text" name="nome">
+                                    </div>
+                                    <div id="section-campo-dados">
+                                        <label for="sobrenome">Sobrenome:</label>
+                                        <input type="text" name="nome">
+                                    </div>
+                                </div>
+                                
+                                <div id="section-campo-dados">
+                                    <label for="email">Email:</label>
+                                    <input type="email" name="email" placeholder="@gmail.com">
+                                </div>
+                                <div id="section-campo-dados">
+                                    <label>Sexo:</label>
+                                    <label>
+                                        <input type="radio" name="sexo" value="masculino"> Masculino
+                                    </label>
+                                    <label>
+                                        <input type="radio" name="sexo" value="feminino"> Feminino
+                                    </label>
+                                </div>
+                                <div id="section-campo-dados">
+                                    <label for="telefone">Telefone:</label>
+                                    <input type="tel" id="telefone" name="telefone">
+                                </div>
+                                <div id="section-campo-dados">              
+                                    <label>
+                                        <input type="checkbox" name="newsletter" value="1"> Gostaria de receber novidades por email
+                                    </label>
+                                </div>
+                                <div>
+                                    <button id="botao">Cadastrar</button>
+                                </div>
+                            </fieldset>
+                            
+                            
+                        </form>
                     </div>
 
 
