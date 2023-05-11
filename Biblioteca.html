@@ -211,15 +211,17 @@
 
                     <!--favoritos-->
                     <div class="section-favoritos">
-                        <div id="border-radius">
-                            <p id="texto-botao">Favoritados</p>
-                        </div>                                         
+                                        
                         <div id="section-imagens-livros-favoritos">
+                            <h2>Livros da Semana</h2>
+                            <ul id="links-semana">
+                                <li><a href="#">Mais lidos</a></li>
+                                <li><a href="#">Mais comentados</a></li>
+                                <li><a href="#">Mais criticados</a></li>
+                            </ul>
+                            <h2>Favoritados</h2>
                             <div id="livro-favorito">
                                 <a href="#"><img src="Capas-Livros/O_assassinato_no_expresso_oriente.jpg"></a>
-                            </div>
-                            <div id="livro-favorito">
-                                <a href="#"><img src="Capas-Livros/SherlockHomes.jpg"></a>
                             </div>
                             <div id="livro-favorito">
                                 <a href="#"><img src="Capas-Livros/crepusculo.jpg"></a>
@@ -227,12 +229,7 @@
                             <div id="livro-favorito">
                                 <a href="#"> <img src="Capas-Livros/As_cronicas_de_narnia.jpg"></a>
                             </div>
-                            <div id="livro-favorito">
-                                <a href="#"> <img src="Capas-Livros/A_ponte_entre_reinos.jpg"></a>
-                            </div>
-                            <div id="livro-favorito">
-                                <a href="#"> <img src="Capas-Livros/O_pai_rico.jpg"></a>
-                            </div>
+                           
                             <div id="botoes">
                                 <button><p id="texto-botao">Ver mais</p></button>
                             </div>
@@ -260,6 +257,9 @@
                         </div>
                         <div id="genero-livro">
                             <a href="#"><img src="Capas-Livros/generos/genero-aventura.jpg"></a>
+                        </div>
+                        <div id="genero-livro">
+                            <a href="#"><img src="Capas-Livros/generos/genero-acao.jpg"></a>
                         </div>
                     </div>
                     <div id="botoes">
@@ -307,8 +307,8 @@
                                     <input type="tel" id="telefone" name="telefone">
                                 </div>
                                 <div id="section-campo-dados">
-                                    <p>Preferência de Gênero de livros:</p>
-                                    <p>Ação:</p> 
+                                    <label>Preferência de Gênero de livros:</label>
+                                    <label>Ação:</label> 
                                     <input type="range" list="Ação">
                                     <datalist id="genero">
                                         <option value="0" >
@@ -324,7 +324,7 @@
                                         <option value="100">
                                     </datalist>
 
-                                    <p>Drama:</p> 
+                                    <label>Drama:</label> 
                                     <input type="range" list="Drama">
                                     <datalist id="genero">
                                         <option value="0" >
@@ -340,7 +340,7 @@
                                         <option value="100">
                                     </datalist>
 
-                                    <p>Romance:</p> 
+                                    <label>Romance:</label> 
                                     <input type="range" list="Romance">
                                     <datalist id="genero">
                                         <option value="0" >
@@ -356,7 +356,7 @@
                                         <option value="100">
                                     </datalist>
 
-                                    <p>Comédia:</p> 
+                                    <label>Comédia:</label> 
                                     <input type="range" list="Comedia">
                                     <datalist id="genero">
                                         <option value="0" >
@@ -372,7 +372,7 @@
                                         <option value="100">
                                     </datalist>
 
-                                    <p>Suspense:</p> 
+                                    <label>Suspense:</label> 
                                     <input type="range" list="Suspense">
                                     <datalist id="genero">
                                         <option value="0" >
@@ -388,7 +388,7 @@
                                         <option value="100">
                                     </datalist>
 
-                                    <p>Terror:</p> 
+                                    <label>Terror:</label> 
                                     <input type="range" list="Terror">
                                     <datalist id="genero">
                                         <option value="0" >
@@ -404,7 +404,7 @@
                                         <option value="100">
                                     </datalist>
 
-                                    <p>Ficção Científica:</p> 
+                                    <label>Ficção Científica:</label> 
                                     <input type="range" list="FiccaoCientifica">
                                     <datalist id="genero">
                                         <option value="0" >

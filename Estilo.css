@@ -254,6 +254,7 @@ padding-bottom: 10px;
   justify-content: center;
   align-items: flex-start;
   overflow: auto;
+  gap: 10px;
 }
 
 .conteudo-parte1 > .section-livro{
@@ -335,7 +336,10 @@ padding-bottom: 10px;
   margin: 5px;
 }
 
-
+#links-semana > li > a{
+  text-decoration: underline;
+  color: #6b6a9c;
+}
 .section-favoritos{
   display: flex;
   flex-wrap: wrap;
@@ -343,6 +347,7 @@ padding-bottom: 10px;
   align-items: center;
   text-align: center;
   justify-content: center;
+  margin: 5px;
 }
 
 #section-imagens-livros-favoritos{
@@ -353,6 +358,7 @@ padding-bottom: 10px;
   align-items: center;
   border-radius: 30px;
   padding: 40px;
+  color: #5f0d66;
 }
 
 #livro-favorito, #livro-mais-vendido, #livro-lancamento{
@@ -452,7 +458,7 @@ figure{
 }
 
 #genero-livro{
-  width: 300px;
+  width: 250px;
   height: auto;
   margin: 20px;
 }
@@ -484,8 +490,8 @@ figure{
 }
 #section-revews{
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  flex-direction: row;
+  flex-wrap: nowrap;
   align-items: center;
   margin: 10px;
   gap: 10px;
@@ -648,7 +654,7 @@ input[type="email"], fieldset.elist {
   color: #d7d5e0;
   font-family: 'Times New Roman', Times, serif;
   padding: 20px;
-
+  line-height: 1.5;
 }
 
 
@@ -701,7 +707,9 @@ input[type="email"], fieldset.elist {
   }
 
 
-
+  a{
+    font-size: 22px;
+  }
 
   h1{
     font-size: 32px;
@@ -758,7 +766,7 @@ input[type="email"], fieldset.elist {
 
 
   #texto{
-    font-size: 28px;
+    font-size: 24px;
     padding: 10px;
     line-height: 1.5;
     text-align: justify;
@@ -789,14 +797,23 @@ input[type="email"], fieldset.elist {
     height: auto;
   }
 
+  #section-revews{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px;
+    gap: 10px;
+  }
+
   #avatar{
-    width: 90px;
+    width: 60px;
     height: auto;
     border-radius: 50%; 
     padding: 10px;
 }
   #nome-avatar{
-    font-size: 28px;
+    font-size: 24px;
   }
 
   #imagem-avaliacao-estrelas{
@@ -844,7 +861,7 @@ input[type="email"], fieldset.elist {
     display: flex;
   }
   #texto-botao{
-    font-size: 28px;
+    font-size: 24px;
   }
   #botoes{
     justify-content: center;
@@ -928,7 +945,49 @@ input[type="email"], fieldset.elist {
     text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
     border-radius: 0;
   }
+  .Propagandas{
+    display: flex;
+    flex-direction: column;
+    background-color: #aca0f0;
+    align-items: center;
+    padding: 20px;
+  }
   
+  .Coluna1{
+    display: flex;
+    flex-direction: column;
+    background-color: #aca0f0;
+    width: 100%;
+    
+  }
+  
+  .Coluna2{
+    display: flex;
+    background-color: #aca0f0;
+    flex-direction: column;
+    width: 100%; 
+  }
+
+  .Coluna3{
+    display: flex;
+    background-color: #aca0f0;
+    flex-direction: column;
+    width: 100%; 
+  }
+
+  .Anuncio a{
+    color:#000000; 
+    padding:10px 20px; 
+    display:block;
+  }
+  
+  .Anuncio a:hover{
+    background:#cc8fd4;
+    color:#ffffff;
+  }
+  #Promo{
+    display: none;
+  }
   
 }
 
