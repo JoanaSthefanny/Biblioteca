@@ -11,45 +11,46 @@
     <body>
         <header>
             <div class="header">
-                <img src="BibliotecaLogo.gif" width="10%" height="10%">
-
-
+                    <img src="BibliotecaLogo.gif" width="200px" height="200px">
                 <div class="texto">
                     <h2>Biblioteca</h2>
                     <h1>Libofly</h1>
                     <h3>Onde sua Imaginação ganha asas</h3>
                 </div>
+                <nav >
+                    <ul class="InfLeng">
+                        <li><a href="Biblioteca.html" class="link-container">PT</a></li>
 
-            <nav >
-                <ul class="InfLeng">
-                    <li><a href="Biblioteca.html" class="link-container">PT</a></li>
+                        <li><a href="BibliotecaEN.html" class="link-container">EN</a></li>
 
-                    <li><a href="BibliotecaEN.html" class="link-container">EN</a></li>
+                        <li><a href="BibliotecaCN.html" class="link-container">CN</a></li>
 
-                    <li><a href="BibliotecaCN.html" class="link-container">CN</a></li>
+                        <li><a href="BibliotecaFR.html" class="link-container">FR</a></li>
 
-                    <li><a href="BibliotecaFR.html" class="link-container">FR</a></li>
-
-                    <li><a href="Suporte.html" class="link-suporte">Suporte </a></li>
-                </ul>
-            </nav>
+                        <li><a href="Suporte.html" class="link-suporte">Suporte </a></li>
+                    </ul>
+                </nav>
         </div>
     </header>
     <div id="container">
         <main>
             <div id="header-main">
                 <nav>
-                    <ul class="Lista">
+                    <ul Class="Lista">
                         <li><a href="#"><p id="texto-header-main">Home</p></a></li>
                         <li><a href="#"><p id="texto-header-main">Sobre</p></a></li>
                         <li><a href="#"><p id="texto-header-main">Gêneros</p></a></li>
                         <li><a href="#"><p id="texto-header-main">Avaliações</p></a></li>
                         <li><a href="#"><p id="texto-header-main">Livros mais vendidos e lançamentos</p></a></li>
-                        <li><a href="#"><p id="texto-header-main">Links</p></a></li>
-                        <li><a href="#"><p id="texto-header-main">Contato</p></a></li>
+                        <li><a href="#"><p id="texto-header-main">Links e Anuncios</p></a></li>
+                        <li><a href="#"><p id="texto-header-main">Contatos</p></a></li>
                     </ul>
                 </nav>
-                <img src="Libofly.gif" width="100%"> 
+                <div id="divBusca">
+                    <input type="text" id="txtBusca" placeholder="Buscar..."/>
+                    <img src="Buscar.png" id="btnBusca" alt="Buscar" width="10%"/>
+                </div>
+                <img id="Promo" src="Libofly.gif" width="100%"> 
             </div>
                 
             
@@ -305,14 +306,134 @@
                                     <label for="telefone">Telefone:</label>
                                     <input type="tel" id="telefone" name="telefone">
                                 </div>
+                                <div id="section-campo-dados">
+                                    <p>Preferência de Gênero de livros:</p>
+                                    <p>Ação:</p> 
+                                    <input type="range" list="Ação">
+                                    <datalist id="genero">
+                                        <option value="0" >
+                                        <option value="10">
+                                        <option value="20">
+                                        <option value="30">
+                                        <option value="40">
+                                        <option value="50">
+                                        <option value="60">
+                                        <option value="70">
+                                        <option value="80">
+                                        <option value="90">
+                                        <option value="100">
+                                    </datalist>
+
+                                    <p>Drama:</p> 
+                                    <input type="range" list="Drama">
+                                    <datalist id="genero">
+                                        <option value="0" >
+                                        <option value="10">
+                                        <option value="20">
+                                        <option value="30">
+                                        <option value="40">
+                                        <option value="50">
+                                        <option value="60">
+                                        <option value="70">
+                                        <option value="80">
+                                        <option value="90">
+                                        <option value="100">
+                                    </datalist>
+
+                                    <p>Romance:</p> 
+                                    <input type="range" list="Romance">
+                                    <datalist id="genero">
+                                        <option value="0" >
+                                        <option value="10">
+                                        <option value="20">
+                                        <option value="30">
+                                        <option value="40">
+                                        <option value="50">
+                                        <option value="60">
+                                        <option value="70">
+                                        <option value="80">
+                                        <option value="90">
+                                        <option value="100">
+                                    </datalist>
+
+                                    <p>Comédia:</p> 
+                                    <input type="range" list="Comedia">
+                                    <datalist id="genero">
+                                        <option value="0" >
+                                        <option value="10">
+                                        <option value="20">
+                                        <option value="30">
+                                        <option value="40">
+                                        <option value="50">
+                                        <option value="60">
+                                        <option value="70">
+                                        <option value="80">
+                                        <option value="90">
+                                        <option value="100">
+                                    </datalist>
+
+                                    <p>Suspense:</p> 
+                                    <input type="range" list="Suspense">
+                                    <datalist id="genero">
+                                        <option value="0" >
+                                        <option value="10">
+                                        <option value="20">
+                                        <option value="30">
+                                        <option value="40">
+                                        <option value="50">
+                                        <option value="60">
+                                        <option value="70">
+                                        <option value="80">
+                                        <option value="90">
+                                        <option value="100">
+                                    </datalist>
+
+                                    <p>Terror:</p> 
+                                    <input type="range" list="Terror">
+                                    <datalist id="genero">
+                                        <option value="0" >
+                                        <option value="10">
+                                        <option value="20">
+                                        <option value="30">
+                                        <option value="40">
+                                        <option value="50">
+                                        <option value="60">
+                                        <option value="70">
+                                        <option value="80">
+                                        <option value="90">
+                                        <option value="100">
+                                    </datalist>
+
+                                    <p>Ficção Científica:</p> 
+                                    <input type="range" list="FiccaoCientifica">
+                                    <datalist id="genero">
+                                        <option value="0" >
+                                        <option value="10">
+                                        <option value="20">
+                                        <option value="30">
+                                        <option value="40">
+                                        <option value="50">
+                                        <option value="60">
+                                        <option value="70">
+                                        <option value="80">
+                                        <option value="90">
+                                        <option value="100">
+                                    </datalist> <br>
+                                </div>
                                 <div id="section-campo-dados">              
                                     <label>
                                         <input type="checkbox" name="newsletter" value="1"> Gostaria de receber novidades por email
                                     </label>
                                 </div>
+
+
+
                                 <div>
                                     <button id="botao">Cadastrar</button>
                                 </div>
+
+
+                                
                             </fieldset>
                             
                             
@@ -441,69 +562,62 @@
             </div>    
             <div class="Propagandas">
                 <div class="Coluna1">
-
-                    <nav>
-                        <ul class="Anuncio">
-                            <li><a href="#"><img src="Anuncios/1.svg">
-                                <p id="TituloP">Tome um café da Café Gentil hoje</p>
-                                <p id="Marca">Café Gentil</p>
-                                <p id="Descricao">Comece o dia com uma xícara de café gourmet. Seja gentil com você.</p></a></li>
-                            <li><a href="#"><img src="Anuncios/2.svg">
-                                <p id="TituloP">Comida saborosa e orgânica</p>
-                                <p id="Marca">Good Taste</p>
-                                <p id="Descricao">Coma de forma saudável, sem se preocupar com o gosto.</p></a></li>
-                            <li><a href="#"><img src="Anuncios/3.svg">
-                                    <p id="TituloP">Liquidação apenas hoje!</p>
-                                    <p id="Marca">Imóveis S.A.</p>
-                                    <p id="Descricao">Deixe sua casa do jeitinho que você gosta de forma prática e barata.</p></a></li>
-                        </ul>
-                    </nav>
-
+                    <div class="Anuncio">
+                        <a href="#"><img src="Anuncios/1.svg">
+                        <p id="TituloP">Tome um café da Café Gentil hoje</p>
+                        <p id="Marca">Café Gentil</p>
+                        <p id="Descricao">Comece o dia com uma xícara de café gourmet. Seja gentil com você.</p></a>
+                    </div>
+                    <div class="Anuncio">
+                        <a href="#"><img src="Anuncios/2.svg">
+                        <p id="TituloP">Comida saborosa e orgânica</p>
+                        <p id="Marca">Good Taste</p>
+                        <p id="Descricao">Coma de forma saudável, sem se preocupar com o gosto.</p></a>
+                    </div>
+                    <div class="Anuncio">
+                        <a href="#"><img src="Anuncios/3.svg">
+                        <p id="TituloP">Liquidação apenas hoje!</p>
+                        <p id="Marca">Imóveis S.A.</p>
+                        <p id="Descricao">Deixe sua casa do jeitinho que você gosta de forma prática e barata.</p></a>
+                    </div>
                 </div>
 
                 <div class="Coluna2">
-                    <div class="Anuncio4">
-                        <nav>
-                            <ul class="Anuncio">
-                                <li><a href="#"><img src="Anuncios/4.svg">
-                                    <p id="TituloP">vestuário feminino</p>
-                                    <p id="Marca">Valnite Store</p>
-                                    <p id="Descricao">Roupas feitas com carinho, especialmente para você.</p></a></li>
-                            </ul>
-                        </nav>
+                    <div class="Anuncio">
+                        <a href="#"><img src="Anuncios/4.svg">
+                        <p id="TituloP">vestuário feminino</p>
+                        <p id="Marca">Valnite Store</p>
+                        <p id="Descricao">Roupas feitas com carinho, especialmente para você.</p></a>
+                    </div>
+                    <div class="anuncio0">
 
                     </div>
-                    <div class="Anuncio5">
-                        <nav>
-                            <ul class="Anuncio">
-                                <li><a href="#"><img src="Anuncios/5.svg">
-                                    <p id="TituloP">Desing de sobrancelhas</p>
-                                    <p id="Marca">Cahaya Dewil</p>
-                                    <p id="Descricao">Atendimento personalizado, apenas para lhe fazer feliz!</p></a></li>
-                        </nav>
+                    <div class="Anuncio">
+                        <a href="#"><img src="Anuncios/5.svg">
+                        <p id="TituloP">Desing de sobrancelhas</p>
+                        <p id="Marca">Cahaya Dewil</p>
+                        <p id="Descricao">Atendimento personalizado, apenas para lhe fazer feliz!</p></a>
                     </div>
-                
-
                 </div>
 
                 <div class="Coluna3">
-
-                    <nav>
-                        <ul class="Anuncio">
-                            <li><a href="#"><img src="Anuncios/6.svg">
-                                <p id="TituloP">Seu parceiro em assistência médica.</p>
-                                <p id="Marca">Soluções Global</p>
-                                <p id="Descricao">Seja nosso parceiro! Entre em contato com um de nossos atendentes!</p></a></li>
-                            <li><a href="#"><img src="Anuncios/7.svg">
+                        <div class="Anuncio">
+                            <a href="#"><img src="Anuncios/6.svg">
+                            <p id="TituloP">Seu parceiro em assistência médica.</p>
+                            <p id="Marca">Soluções Global</p>
+                            <p id="Descricao">Seja nosso parceiro! Entre em contato com um de nossos atendentes!</p></a>
+                        </div>
+                        <div class="Anuncio">
+                            <a href="#"><img src="Anuncios/7.svg">
                                 <p id="TituloP">Estratégicas Digitais</p>
                                 <p id="Marca">Barcelle</p>
-                                <p id="Descricao">Encontramos a melhor estratégia para o seu negócio!</p></a></li>
-                            <li><a href="#"><img src="Anuncios/8.svg">
-                                    <p id="TituloP">Loja online</p>
-                                    <p id="Marca">Shopping Online Store</p>
-                                    <p id="Descricao">Encontre aqui o que você precisa!</p></a></li>
-                        </ul>
-                    </nav>
+                                <p id="Descricao">Encontramos a melhor estratégia para o seu negócio!</p></a>
+                            </div>
+                            <div class="Anuncio"><a href="#"><img src="Anuncios/8.svg">
+                                <p id="TituloP">Loja online</p>
+                                <p id="Marca">Shopping Online Store</p>
+                                <p id="Descricao">Encontre aqui o que você precisa!</p></a>
+                            </div>
                 </div>
             </div>
         </main>
